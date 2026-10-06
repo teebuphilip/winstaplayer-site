@@ -1,0 +1,87 @@
+{
+  "facts": {
+    "bet_slip_source": null,
+    "contract": "winstaplayer-validated-facts-v1",
+    "facts_status": "no_completed_slate",
+    "generated_at_utc": "2026-10-03T13:27:48Z",
+    "ledger_summary": {
+      "losses": 3,
+      "pushes": 0,
+      "roi_pct": -74.5,
+      "total_bets": 4,
+      "total_pnl": -74.5,
+      "total_wagered": 100.0,
+      "win_rate_pct": 25.0,
+      "wins": 1
+    },
+    "outcomes": {},
+    "paywall": {
+      "cta": "WinstaPlayer is free through November 30. During the free period, you can see the Hot Pick, All Picks, Aggressive, Conservative, and the complete live record. The paywall begins December 1.",
+      "is_free": true,
+      "paywall_date": "2026-12-01",
+      "state": "free_preview"
+    },
+    "prior_slate": {
+      "bets": [],
+      "has_games_or_bets": false,
+      "hot_pick": null,
+      "total_published_bets": 0
+    },
+    "profiles": {
+      "aggressive": {
+        "metrics": {
+          "bets": 0,
+          "losses": 0,
+          "pnl": 0,
+          "pushes": 0,
+          "roi_pct": null,
+          "wagered": 0,
+          "win_rate_pct": null,
+          "wins": 0
+        },
+        "status": "not_available"
+      },
+      "all": {
+        "metrics": {
+          "bets": 0,
+          "losses": 0,
+          "pnl": 0,
+          "pushes": 0,
+          "roi_pct": null,
+          "wagered": 0,
+          "win_rate_pct": null,
+          "wins": 0
+        },
+        "status": "not_available"
+      },
+      "conservative": {
+        "metrics": {
+          "bets": 0,
+          "losses": 0,
+          "pnl": 0,
+          "pushes": 0,
+          "roi_pct": null,
+          "wagered": 0,
+          "win_rate_pct": null,
+          "wins": 0
+        },
+        "status": "not_available"
+      }
+    },
+    "publication_date": "2026-10-06",
+    "result_source": null,
+    "source_slate_date": "2026-10-05",
+    "summary": {
+      "bets": 0,
+      "losses": 0,
+      "pnl": 0,
+      "pushes": 0,
+      "roi_pct": null,
+      "wagered": 0,
+      "win_rate_pct": null,
+      "wins": 0
+    }
+  },
+  "picks": [],
+  "visibility": "production"
+}
