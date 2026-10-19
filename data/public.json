@@ -3,7 +3,7 @@
     "bet_slip_source": null,
     "contract": "winstaplayer-validated-facts-v1",
     "facts_status": "no_completed_slate",
-    "generated_at_utc": "2026-10-03T13:27:48Z",
+    "generated_at_utc": "2026-10-19T08:00:04Z",
     "ledger_summary": {
       "losses": 3,
       "pushes": 0,
@@ -68,9 +68,9 @@
         "status": "not_available"
       }
     },
-    "publication_date": "2026-10-06",
+    "publication_date": "2026-10-19",
     "result_source": null,
-    "source_slate_date": "2026-10-05",
+    "source_slate_date": "2026-10-18",
     "summary": {
       "bets": 0,
       "losses": 0,
