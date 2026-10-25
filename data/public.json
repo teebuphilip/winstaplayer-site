@@ -1,22 +1,21 @@
 {
   "facts": {
-    "bet_slip_source": "data/bet_slips/2026-10-23.json",
+    "bet_slip_source": "data/bet_slips/2026-10-24.json",
     "contract": "winstaplayer-validated-facts-v1",
     "facts_status": "validated",
-    "generated_at_utc": "2026-10-24T15:27:41Z",
+    "generated_at_utc": "2026-10-25T08:00:34Z",
     "ledger_summary": {
       "losses": 4,
       "pushes": 0,
-      "roi_pct": -66.1,
-      "total_bets": 6,
-      "total_pnl": -98.68,
-      "total_wagered": 149.26,
-      "win_rate_pct": 33.3,
-      "wins": 2
+      "roi_pct": -49.3,
+      "total_bets": 8,
+      "total_pnl": -97.74,
+      "total_wagered": 198.27,
+      "win_rate_pct": 50.0,
+      "wins": 4
     },
     "outcomes": {
-      "LOSS": 1,
-      "WIN": 1
+      "WIN": 2
     },
     "paywall": {
       "cta": "WinstaPlayer is free through November 30. During the free period, you can see the Hot Pick, All Picks, Aggressive, Conservative, and the complete live record. The paywall begins December 1.",
@@ -27,27 +26,27 @@
     "prior_slate": {
       "bets": [
         {
-          "actual_stat": 7,
-          "dbb2_projection": 0.8,
+          "actual_stat": 9,
+          "dbb2_projection": 4.9,
           "direction": "UNDER",
           "outcome": "WIN",
-          "payout_dollars": 0.45,
-          "player_name": "Tyrese Haliburton",
-          "prop_type": "assists",
-          "source": "sportsbook",
-          "sportsbook_line": 9.5,
-          "units": 0.5
-        },
-        {
-          "actual_stat": 12,
-          "dbb2_projection": 4.7,
-          "direction": "UNDER",
-          "outcome": "LOSS",
-          "payout_dollars": -24.63,
+          "payout_dollars": 0.51,
           "player_name": "Trae Young",
           "prop_type": "assists",
           "source": "sportsbook",
-          "sportsbook_line": 9.5,
+          "sportsbook_line": 10.5,
+          "units": 0.5
+        },
+        {
+          "actual_stat": 10,
+          "dbb2_projection": 4.9,
+          "direction": "UNDER",
+          "outcome": "WIN",
+          "payout_dollars": 0.43,
+          "player_name": "Nikola Jokic",
+          "prop_type": "assists",
+          "source": "sportsbook",
+          "sportsbook_line": 10.5,
           "units": 0.5
         }
       ],
@@ -72,13 +71,13 @@
       "all": {
         "metrics": {
           "bets": 2,
-          "losses": 1,
-          "pnl": -24.18,
+          "losses": 0,
+          "pnl": 0.94,
           "pushes": 0,
-          "roi_pct": -24.18,
+          "roi_pct": 0.94,
           "wagered": 100.0,
-          "win_rate_pct": 50.0,
-          "wins": 1
+          "win_rate_pct": 100.0,
+          "wins": 2
         },
         "status": "available"
       },
@@ -96,43 +95,43 @@
         "status": "not_available"
       }
     },
-    "publication_date": "2026-10-24",
-    "result_source": "data/results/2026-10-23.json",
-    "source_slate_date": "2026-10-23",
+    "publication_date": "2026-10-25",
+    "result_source": "data/results/2026-10-24.json",
+    "source_slate_date": "2026-10-24",
     "summary": {
       "bets": 2,
-      "losses": 1,
-      "pnl": -24.18,
+      "losses": 0,
+      "pnl": 0.94,
       "pushes": 0,
-      "roi_pct": -24.18,
+      "roi_pct": 0.94,
       "wagered": 100.0,
-      "win_rate_pct": 50.0,
-      "wins": 1
+      "win_rate_pct": 100.0,
+      "wins": 2
     }
   },
   "picks": [
     {
-      "actual_stat": 7,
-      "dbb2_projection": 0.8,
+      "actual_stat": 9,
+      "dbb2_projection": 4.9,
       "direction": "UNDER",
       "outcome": "WIN",
-      "payout_dollars": 0.45,
-      "player_name": "Tyrese Haliburton",
-      "prop_type": "assists",
-      "source": "sportsbook",
-      "sportsbook_line": 9.5,
-      "units": 0.5
-    },
-    {
-      "actual_stat": 12,
-      "dbb2_projection": 4.7,
-      "direction": "UNDER",
-      "outcome": "LOSS",
-      "payout_dollars": -24.63,
+      "payout_dollars": 0.51,
       "player_name": "Trae Young",
       "prop_type": "assists",
       "source": "sportsbook",
-      "sportsbook_line": 9.5,
+      "sportsbook_line": 10.5,
+      "units": 0.5
+    },
+    {
+      "actual_stat": 10,
+      "dbb2_projection": 4.9,
+      "direction": "UNDER",
+      "outcome": "WIN",
+      "payout_dollars": 0.43,
+      "player_name": "Nikola Jokic",
+      "prop_type": "assists",
+      "source": "sportsbook",
+      "sportsbook_line": 10.5,
       "units": 0.5
     }
   ],
