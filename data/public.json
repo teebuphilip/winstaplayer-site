@@ -1,9 +1,9 @@
 {
   "facts": {
-    "bet_slip_source": "data/bet_slips/2026-10-24.json",
+    "bet_slip_source": null,
     "contract": "winstaplayer-validated-facts-v1",
-    "facts_status": "validated",
-    "generated_at_utc": "2026-10-25T08:00:34Z",
+    "facts_status": "no_completed_slate",
+    "generated_at_utc": "2026-10-30T11:34:21Z",
     "ledger_summary": {
       "losses": 4,
       "pushes": 0,
@@ -14,9 +14,7 @@
       "win_rate_pct": 50.0,
       "wins": 4
     },
-    "outcomes": {
-      "WIN": 2
-    },
+    "outcomes": {},
     "paywall": {
       "cta": "WinstaPlayer is free through November 30. During the free period, you can see the Hot Pick, All Picks, Aggressive, Conservative, and the complete live record. The paywall begins December 1.",
       "is_free": true,
@@ -24,35 +22,10 @@
       "state": "free_preview"
     },
     "prior_slate": {
-      "bets": [
-        {
-          "actual_stat": 9,
-          "dbb2_projection": 4.9,
-          "direction": "UNDER",
-          "outcome": "WIN",
-          "payout_dollars": 0.51,
-          "player_name": "Trae Young",
-          "prop_type": "assists",
-          "source": "sportsbook",
-          "sportsbook_line": 10.5,
-          "units": 0.5
-        },
-        {
-          "actual_stat": 10,
-          "dbb2_projection": 4.9,
-          "direction": "UNDER",
-          "outcome": "WIN",
-          "payout_dollars": 0.43,
-          "player_name": "Nikola Jokic",
-          "prop_type": "assists",
-          "source": "sportsbook",
-          "sportsbook_line": 10.5,
-          "units": 0.5
-        }
-      ],
-      "has_games_or_bets": true,
+      "bets": [],
+      "has_games_or_bets": false,
       "hot_pick": null,
-      "total_published_bets": 2
+      "total_published_bets": 0
     },
     "profiles": {
       "aggressive": {
@@ -70,16 +43,16 @@
       },
       "all": {
         "metrics": {
-          "bets": 2,
+          "bets": 0,
           "losses": 0,
-          "pnl": 0.94,
+          "pnl": 0,
           "pushes": 0,
-          "roi_pct": 0.94,
-          "wagered": 100.0,
-          "win_rate_pct": 100.0,
-          "wins": 2
+          "roi_pct": null,
+          "wagered": 0,
+          "win_rate_pct": null,
+          "wins": 0
         },
-        "status": "available"
+        "status": "not_available"
       },
       "conservative": {
         "metrics": {
@@ -95,45 +68,20 @@
         "status": "not_available"
       }
     },
-    "publication_date": "2026-10-25",
-    "result_source": "data/results/2026-10-24.json",
-    "source_slate_date": "2026-10-24",
+    "publication_date": "2026-10-30",
+    "result_source": null,
+    "source_slate_date": "2026-10-29",
     "summary": {
-      "bets": 2,
+      "bets": 0,
       "losses": 0,
-      "pnl": 0.94,
+      "pnl": 0,
       "pushes": 0,
-      "roi_pct": 0.94,
-      "wagered": 100.0,
-      "win_rate_pct": 100.0,
-      "wins": 2
+      "roi_pct": null,
+      "wagered": 0,
+      "win_rate_pct": null,
+      "wins": 0
     }
   },
-  "picks": [
-    {
-      "actual_stat": 9,
-      "dbb2_projection": 4.9,
-      "direction": "UNDER",
-      "outcome": "WIN",
-      "payout_dollars": 0.51,
-      "player_name": "Trae Young",
-      "prop_type": "assists",
-      "source": "sportsbook",
-      "sportsbook_line": 10.5,
-      "units": 0.5
-    },
-    {
-      "actual_stat": 10,
-      "dbb2_projection": 4.9,
-      "direction": "UNDER",
-      "outcome": "WIN",
-      "payout_dollars": 0.43,
-      "player_name": "Nikola Jokic",
-      "prop_type": "assists",
-      "source": "sportsbook",
-      "sportsbook_line": 10.5,
-      "units": 0.5
-    }
-  ],
+  "picks": [],
   "visibility": "production"
 }
