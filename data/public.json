@@ -1,21 +1,22 @@
 {
   "facts": {
-    "bet_slip_source": "data/bet_slips/2026-11-02.json",
+    "bet_slip_source": "data/bet_slips/2026-11-10.json",
     "contract": "winstaplayer-validated-facts-v1",
     "facts_status": "validated",
-    "generated_at_utc": "2026-11-03T09:00:59Z",
+    "generated_at_utc": "2026-11-11T09:01:00Z",
     "ledger_summary": {
-      "losses": 6,
+      "losses": 13,
       "pushes": 0,
-      "roi_pct": -42.0,
-      "total_bets": 14,
-      "total_pnl": -144.76,
-      "total_wagered": 344.61,
-      "win_rate_pct": 57.1,
-      "wins": 8
+      "roi_pct": -45.6,
+      "total_bets": 28,
+      "total_pnl": -309.62,
+      "total_wagered": 678.77,
+      "win_rate_pct": 51.9,
+      "wins": 14
     },
     "outcomes": {
-      "WIN": 2
+      "LOSS": 1,
+      "WIN": 1
     },
     "paywall": {
       "cta": "WinstaPlayer is free through November 30. During the free period, you can see the Hot Pick, All Picks, Aggressive, Conservative, and the complete live record. The paywall begins December 1.",
@@ -26,27 +27,27 @@
     "prior_slate": {
       "bets": [
         {
-          "actual_stat": 9,
-          "dbb2_projection": 5.2,
-          "direction": "UNDER",
-          "outcome": "WIN",
-          "payout_dollars": 0.49,
-          "player_name": "Trae Young",
-          "prop_type": "assists",
-          "source": "sportsbook",
-          "sportsbook_line": 10.5,
-          "units": 0.5
-        },
-        {
-          "actual_stat": 20,
-          "dbb2_projection": 5.0,
+          "actual_stat": 7,
+          "dbb2_projection": 2.2,
           "direction": "UNDER",
           "outcome": "WIN",
           "payout_dollars": 0.47,
-          "player_name": "Damian Lillard",
-          "prop_type": "points",
+          "player_name": "Franz Wagner",
+          "prop_type": "assists",
           "source": "sportsbook",
-          "sportsbook_line": 20.5,
+          "sportsbook_line": 7.5,
+          "units": 0.5
+        },
+        {
+          "actual_stat": 16,
+          "dbb2_projection": 6.8,
+          "direction": "UNDER",
+          "outcome": "LOSS",
+          "payout_dollars": -23.57,
+          "player_name": "Karl-Anthony Towns",
+          "prop_type": "rebounds",
+          "source": "sportsbook",
+          "sportsbook_line": 13.5,
           "units": 0.5
         }
       ],
@@ -71,13 +72,13 @@
       "all": {
         "metrics": {
           "bets": 2,
-          "losses": 0,
-          "pnl": 0.96,
+          "losses": 1,
+          "pnl": -23.1,
           "pushes": 0,
-          "roi_pct": 0.96,
+          "roi_pct": -23.1,
           "wagered": 100.0,
-          "win_rate_pct": 100.0,
-          "wins": 2
+          "win_rate_pct": 50.0,
+          "wins": 1
         },
         "status": "available"
       },
@@ -95,43 +96,43 @@
         "status": "not_available"
       }
     },
-    "publication_date": "2026-11-03",
-    "result_source": "data/results/2026-11-02.json",
-    "source_slate_date": "2026-11-02",
+    "publication_date": "2026-11-11",
+    "result_source": "data/results/2026-11-10.json",
+    "source_slate_date": "2026-11-10",
     "summary": {
       "bets": 2,
-      "losses": 0,
-      "pnl": 0.96,
+      "losses": 1,
+      "pnl": -23.1,
       "pushes": 0,
-      "roi_pct": 0.96,
+      "roi_pct": -23.1,
       "wagered": 100.0,
-      "win_rate_pct": 100.0,
-      "wins": 2
+      "win_rate_pct": 50.0,
+      "wins": 1
     }
   },
   "picks": [
     {
-      "actual_stat": 9,
-      "dbb2_projection": 5.2,
-      "direction": "UNDER",
-      "outcome": "WIN",
-      "payout_dollars": 0.49,
-      "player_name": "Trae Young",
-      "prop_type": "assists",
-      "source": "sportsbook",
-      "sportsbook_line": 10.5,
-      "units": 0.5
-    },
-    {
-      "actual_stat": 20,
-      "dbb2_projection": 5.0,
+      "actual_stat": 7,
+      "dbb2_projection": 2.2,
       "direction": "UNDER",
       "outcome": "WIN",
       "payout_dollars": 0.47,
-      "player_name": "Damian Lillard",
-      "prop_type": "points",
+      "player_name": "Franz Wagner",
+      "prop_type": "assists",
       "source": "sportsbook",
-      "sportsbook_line": 20.5,
+      "sportsbook_line": 7.5,
+      "units": 0.5
+    },
+    {
+      "actual_stat": 16,
+      "dbb2_projection": 6.8,
+      "direction": "UNDER",
+      "outcome": "LOSS",
+      "payout_dollars": -23.57,
+      "player_name": "Karl-Anthony Towns",
+      "prop_type": "rebounds",
+      "source": "sportsbook",
+      "sportsbook_line": 13.5,
       "units": 0.5
     }
   ],
