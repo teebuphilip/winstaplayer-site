@@ -3,16 +3,16 @@
     "bet_slip_source": "data/bet_slips/2026-11-10.json",
     "contract": "winstaplayer-validated-facts-v1",
     "facts_status": "validated",
-    "generated_at_utc": "2026-11-11T09:01:00Z",
+    "generated_at_utc": "2026-11-12T09:01:03Z",
     "ledger_summary": {
-      "losses": 13,
+      "losses": 14,
       "pushes": 0,
-      "roi_pct": -45.6,
-      "total_bets": 28,
-      "total_pnl": -309.62,
-      "total_wagered": 678.77,
-      "win_rate_pct": 51.9,
-      "wins": 14
+      "roi_pct": -45.8,
+      "total_bets": 30,
+      "total_pnl": -332.6,
+      "total_wagered": 725.67,
+      "win_rate_pct": 51.7,
+      "wins": 15
     },
     "outcomes": {
       "LOSS": 1,
@@ -43,7 +43,7 @@
           "dbb2_projection": 6.8,
           "direction": "UNDER",
           "outcome": "LOSS",
-          "payout_dollars": -23.57,
+          "payout_dollars": -23.45,
           "player_name": "Karl-Anthony Towns",
           "prop_type": "rebounds",
           "source": "sportsbook",
@@ -73,9 +73,9 @@
         "metrics": {
           "bets": 2,
           "losses": 1,
-          "pnl": -23.1,
+          "pnl": -22.98,
           "pushes": 0,
-          "roi_pct": -23.1,
+          "roi_pct": -22.98,
           "wagered": 100.0,
           "win_rate_pct": 50.0,
           "wins": 1
@@ -96,15 +96,15 @@
         "status": "not_available"
       }
     },
-    "publication_date": "2026-11-11",
+    "publication_date": "2026-11-12",
     "result_source": "data/results/2026-11-10.json",
     "source_slate_date": "2026-11-10",
     "summary": {
       "bets": 2,
       "losses": 1,
-      "pnl": -23.1,
+      "pnl": -22.98,
       "pushes": 0,
-      "roi_pct": -23.1,
+      "roi_pct": -22.98,
       "wagered": 100.0,
       "win_rate_pct": 50.0,
       "wins": 1
@@ -128,7 +128,7 @@
       "dbb2_projection": 6.8,
       "direction": "UNDER",
       "outcome": "LOSS",
-      "payout_dollars": -23.57,
+      "payout_dollars": -23.45,
       "player_name": "Karl-Anthony Towns",
       "prop_type": "rebounds",
       "source": "sportsbook",
