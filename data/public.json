@@ -1,22 +1,21 @@
 {
   "facts": {
-    "bet_slip_source": "data/bet_slips/2026-11-10.json",
+    "bet_slip_source": "data/bet_slips/2026-11-11.json",
     "contract": "winstaplayer-validated-facts-v1",
     "facts_status": "validated",
-    "generated_at_utc": "2026-11-12T09:01:03Z",
+    "generated_at_utc": "2026-11-13T09:01:02Z",
     "ledger_summary": {
       "losses": 14,
       "pushes": 0,
-      "roi_pct": -45.8,
-      "total_bets": 30,
-      "total_pnl": -332.6,
-      "total_wagered": 725.67,
-      "win_rate_pct": 51.7,
-      "wins": 15
+      "roi_pct": -42.9,
+      "total_bets": 32,
+      "total_pnl": -331.68,
+      "total_wagered": 772.34,
+      "win_rate_pct": 54.8,
+      "wins": 17
     },
     "outcomes": {
-      "LOSS": 1,
-      "WIN": 1
+      "WIN": 2
     },
     "paywall": {
       "cta": "WinstaPlayer is free through November 30. During the free period, you can see the Hot Pick, All Picks, Aggressive, Conservative, and the complete live record. The paywall begins December 1.",
@@ -27,11 +26,11 @@
     "prior_slate": {
       "bets": [
         {
-          "actual_stat": 7,
-          "dbb2_projection": 2.2,
+          "actual_stat": 1,
+          "dbb2_projection": 2.1,
           "direction": "UNDER",
           "outcome": "WIN",
-          "payout_dollars": 0.47,
+          "payout_dollars": 0.44,
           "player_name": "Franz Wagner",
           "prop_type": "assists",
           "source": "sportsbook",
@@ -39,15 +38,15 @@
           "units": 0.5
         },
         {
-          "actual_stat": 16,
-          "dbb2_projection": 6.8,
+          "actual_stat": 4,
+          "dbb2_projection": 4.7,
           "direction": "UNDER",
-          "outcome": "LOSS",
-          "payout_dollars": -23.45,
-          "player_name": "Karl-Anthony Towns",
-          "prop_type": "rebounds",
+          "outcome": "WIN",
+          "payout_dollars": 0.48,
+          "player_name": "Trae Young",
+          "prop_type": "assists",
           "source": "sportsbook",
-          "sportsbook_line": 13.5,
+          "sportsbook_line": 9.5,
           "units": 0.5
         }
       ],
@@ -72,13 +71,13 @@
       "all": {
         "metrics": {
           "bets": 2,
-          "losses": 1,
-          "pnl": -22.98,
+          "losses": 0,
+          "pnl": 0.92,
           "pushes": 0,
-          "roi_pct": -22.98,
+          "roi_pct": 0.92,
           "wagered": 100.0,
-          "win_rate_pct": 50.0,
-          "wins": 1
+          "win_rate_pct": 100.0,
+          "wins": 2
         },
         "status": "available"
       },
@@ -96,27 +95,27 @@
         "status": "not_available"
       }
     },
-    "publication_date": "2026-11-12",
-    "result_source": "data/results/2026-11-10.json",
-    "source_slate_date": "2026-11-10",
+    "publication_date": "2026-11-13",
+    "result_source": "data/results/2026-11-11.json",
+    "source_slate_date": "2026-11-11",
     "summary": {
       "bets": 2,
-      "losses": 1,
-      "pnl": -22.98,
+      "losses": 0,
+      "pnl": 0.92,
       "pushes": 0,
-      "roi_pct": -22.98,
+      "roi_pct": 0.92,
       "wagered": 100.0,
-      "win_rate_pct": 50.0,
-      "wins": 1
+      "win_rate_pct": 100.0,
+      "wins": 2
     }
   },
   "picks": [
     {
-      "actual_stat": 7,
-      "dbb2_projection": 2.2,
+      "actual_stat": 1,
+      "dbb2_projection": 2.1,
       "direction": "UNDER",
       "outcome": "WIN",
-      "payout_dollars": 0.47,
+      "payout_dollars": 0.44,
       "player_name": "Franz Wagner",
       "prop_type": "assists",
       "source": "sportsbook",
@@ -124,15 +123,15 @@
       "units": 0.5
     },
     {
-      "actual_stat": 16,
-      "dbb2_projection": 6.8,
+      "actual_stat": 4,
+      "dbb2_projection": 4.7,
       "direction": "UNDER",
-      "outcome": "LOSS",
-      "payout_dollars": -23.45,
-      "player_name": "Karl-Anthony Towns",
-      "prop_type": "rebounds",
+      "outcome": "WIN",
+      "payout_dollars": 0.48,
+      "player_name": "Trae Young",
+      "prop_type": "assists",
       "source": "sportsbook",
-      "sportsbook_line": 13.5,
+      "sportsbook_line": 9.5,
       "units": 0.5
     }
   ],
