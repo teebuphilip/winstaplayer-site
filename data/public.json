@@ -1,18 +1,18 @@
 {
   "facts": {
-    "bet_slip_source": "data/bet_slips/2026-11-11.json",
+    "bet_slip_source": "data/bet_slips/2026-11-12.json",
     "contract": "winstaplayer-validated-facts-v1",
     "facts_status": "validated",
-    "generated_at_utc": "2026-11-13T09:01:02Z",
+    "generated_at_utc": "2026-11-14T09:01:04Z",
     "ledger_summary": {
       "losses": 14,
       "pushes": 0,
-      "roi_pct": -42.9,
-      "total_bets": 32,
-      "total_pnl": -331.68,
-      "total_wagered": 772.34,
-      "win_rate_pct": 54.8,
-      "wins": 17
+      "roi_pct": -40.4,
+      "total_bets": 34,
+      "total_pnl": -330.68,
+      "total_wagered": 819.02,
+      "win_rate_pct": 57.6,
+      "wins": 19
     },
     "outcomes": {
       "WIN": 2
@@ -26,27 +26,27 @@
     "prior_slate": {
       "bets": [
         {
-          "actual_stat": 1,
-          "dbb2_projection": 2.1,
-          "direction": "UNDER",
-          "outcome": "WIN",
-          "payout_dollars": 0.44,
-          "player_name": "Franz Wagner",
-          "prop_type": "assists",
-          "source": "sportsbook",
-          "sportsbook_line": 7.5,
-          "units": 0.5
-        },
-        {
-          "actual_stat": 4,
-          "dbb2_projection": 4.7,
+          "actual_stat": 10,
+          "dbb2_projection": 4.6,
           "direction": "UNDER",
           "outcome": "WIN",
           "payout_dollars": 0.48,
-          "player_name": "Trae Young",
-          "prop_type": "assists",
+          "player_name": "Kyrie Irving",
+          "prop_type": "points",
           "source": "sportsbook",
-          "sportsbook_line": 9.5,
+          "sportsbook_line": 21.5,
+          "units": 0.5
+        },
+        {
+          "actual_stat": 0,
+          "dbb2_projection": 0.4,
+          "direction": "UNDER",
+          "outcome": "WIN",
+          "payout_dollars": 0.52,
+          "player_name": "Kyrie Irving",
+          "prop_type": "threes",
+          "source": "sportsbook",
+          "sportsbook_line": 3.5,
           "units": 0.5
         }
       ],
@@ -72,9 +72,9 @@
         "metrics": {
           "bets": 2,
           "losses": 0,
-          "pnl": 0.92,
+          "pnl": 1.0,
           "pushes": 0,
-          "roi_pct": 0.92,
+          "roi_pct": 1.0,
           "wagered": 100.0,
           "win_rate_pct": 100.0,
           "wins": 2
@@ -95,15 +95,15 @@
         "status": "not_available"
       }
     },
-    "publication_date": "2026-11-13",
-    "result_source": "data/results/2026-11-11.json",
-    "source_slate_date": "2026-11-11",
+    "publication_date": "2026-11-14",
+    "result_source": "data/results/2026-11-12.json",
+    "source_slate_date": "2026-11-12",
     "summary": {
       "bets": 2,
       "losses": 0,
-      "pnl": 0.92,
+      "pnl": 1.0,
       "pushes": 0,
-      "roi_pct": 0.92,
+      "roi_pct": 1.0,
       "wagered": 100.0,
       "win_rate_pct": 100.0,
       "wins": 2
@@ -111,27 +111,27 @@
   },
   "picks": [
     {
-      "actual_stat": 1,
-      "dbb2_projection": 2.1,
-      "direction": "UNDER",
-      "outcome": "WIN",
-      "payout_dollars": 0.44,
-      "player_name": "Franz Wagner",
-      "prop_type": "assists",
-      "source": "sportsbook",
-      "sportsbook_line": 7.5,
-      "units": 0.5
-    },
-    {
-      "actual_stat": 4,
-      "dbb2_projection": 4.7,
+      "actual_stat": 10,
+      "dbb2_projection": 4.6,
       "direction": "UNDER",
       "outcome": "WIN",
       "payout_dollars": 0.48,
-      "player_name": "Trae Young",
-      "prop_type": "assists",
+      "player_name": "Kyrie Irving",
+      "prop_type": "points",
       "source": "sportsbook",
-      "sportsbook_line": 9.5,
+      "sportsbook_line": 21.5,
+      "units": 0.5
+    },
+    {
+      "actual_stat": 0,
+      "dbb2_projection": 0.4,
+      "direction": "UNDER",
+      "outcome": "WIN",
+      "payout_dollars": 0.52,
+      "player_name": "Kyrie Irving",
+      "prop_type": "threes",
+      "source": "sportsbook",
+      "sportsbook_line": 3.5,
       "units": 0.5
     }
   ],
