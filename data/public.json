@@ -1,18 +1,18 @@
 {
   "facts": {
-    "bet_slip_source": "data/bet_slips/2026-11-13.json",
+    "bet_slip_source": "data/bet_slips/2026-11-14.json",
     "contract": "winstaplayer-validated-facts-v1",
     "facts_status": "validated",
-    "generated_at_utc": "2026-11-15T09:01:01Z",
+    "generated_at_utc": "2026-11-16T09:01:01Z",
     "ledger_summary": {
-      "losses": 15,
+      "losses": 16,
       "pushes": 0,
-      "roi_pct": -40.8,
-      "total_bets": 36,
-      "total_pnl": -353.52,
-      "total_wagered": 865.71,
-      "win_rate_pct": 57.1,
-      "wins": 20
+      "roi_pct": -41.3,
+      "total_bets": 38,
+      "total_pnl": -376.39,
+      "total_wagered": 912.17,
+      "win_rate_pct": 56.8,
+      "wins": 21
     },
     "outcomes": {
       "LOSS": 1,
@@ -27,27 +27,27 @@
     "prior_slate": {
       "bets": [
         {
-          "actual_stat": 29,
-          "dbb2_projection": 5.7,
+          "actual_stat": 34,
+          "dbb2_projection": 5.5,
           "direction": "UNDER",
           "outcome": "LOSS",
-          "payout_dollars": -23.35,
-          "player_name": "Damian Lillard",
+          "payout_dollars": -23.23,
+          "player_name": "Kyrie Irving",
           "prop_type": "points",
           "source": "sportsbook",
-          "sportsbook_line": 21.5,
+          "sportsbook_line": 22.5,
           "units": 0.5
         },
         {
-          "actual_stat": 3,
-          "dbb2_projection": 0.9,
+          "actual_stat": 0,
+          "dbb2_projection": 0.4,
           "direction": "UNDER",
           "outcome": "WIN",
-          "payout_dollars": 0.51,
-          "player_name": "Fred VanVleet",
-          "prop_type": "assists",
+          "payout_dollars": 0.36,
+          "player_name": "Kyrie Irving",
+          "prop_type": "threes",
           "source": "sportsbook",
-          "sportsbook_line": 5.5,
+          "sportsbook_line": 3.5,
           "units": 0.5
         }
       ],
@@ -73,9 +73,9 @@
         "metrics": {
           "bets": 2,
           "losses": 1,
-          "pnl": -22.84,
+          "pnl": -22.87,
           "pushes": 0,
-          "roi_pct": -22.84,
+          "roi_pct": -22.87,
           "wagered": 100.0,
           "win_rate_pct": 50.0,
           "wins": 1
@@ -96,15 +96,15 @@
         "status": "not_available"
       }
     },
-    "publication_date": "2026-11-15",
-    "result_source": "data/results/2026-11-13.json",
-    "source_slate_date": "2026-11-13",
+    "publication_date": "2026-11-16",
+    "result_source": "data/results/2026-11-14.json",
+    "source_slate_date": "2026-11-14",
     "summary": {
       "bets": 2,
       "losses": 1,
-      "pnl": -22.84,
+      "pnl": -22.87,
       "pushes": 0,
-      "roi_pct": -22.84,
+      "roi_pct": -22.87,
       "wagered": 100.0,
       "win_rate_pct": 50.0,
       "wins": 1
@@ -112,27 +112,27 @@
   },
   "picks": [
     {
-      "actual_stat": 29,
-      "dbb2_projection": 5.7,
+      "actual_stat": 34,
+      "dbb2_projection": 5.5,
       "direction": "UNDER",
       "outcome": "LOSS",
-      "payout_dollars": -23.35,
-      "player_name": "Damian Lillard",
+      "payout_dollars": -23.23,
+      "player_name": "Kyrie Irving",
       "prop_type": "points",
       "source": "sportsbook",
-      "sportsbook_line": 21.5,
+      "sportsbook_line": 22.5,
       "units": 0.5
     },
     {
-      "actual_stat": 3,
-      "dbb2_projection": 0.9,
+      "actual_stat": 0,
+      "dbb2_projection": 0.4,
       "direction": "UNDER",
       "outcome": "WIN",
-      "payout_dollars": 0.51,
-      "player_name": "Fred VanVleet",
-      "prop_type": "assists",
+      "payout_dollars": 0.36,
+      "player_name": "Kyrie Irving",
+      "prop_type": "threes",
       "source": "sportsbook",
-      "sportsbook_line": 5.5,
+      "sportsbook_line": 3.5,
       "units": 0.5
     }
   ],
