@@ -1,22 +1,22 @@
 {
   "facts": {
-    "bet_slip_source": "data/bet_slips/2026-11-14.json",
+    "bet_slip_source": "data/bet_slips/2026-11-15.json",
     "contract": "winstaplayer-validated-facts-v1",
     "facts_status": "validated",
-    "generated_at_utc": "2026-11-16T09:01:01Z",
+    "generated_at_utc": "2026-11-17T09:01:03Z",
     "ledger_summary": {
-      "losses": 16,
+      "losses": 17,
       "pushes": 0,
-      "roi_pct": -41.3,
-      "total_bets": 38,
-      "total_pnl": -376.39,
-      "total_wagered": 912.17,
-      "win_rate_pct": 56.8,
+      "roi_pct": -41.7,
+      "total_bets": 40,
+      "total_pnl": -399.51,
+      "total_wagered": 958.41,
+      "win_rate_pct": 55.3,
       "wins": 21
     },
     "outcomes": {
       "LOSS": 1,
-      "WIN": 1
+      "NO_ACTION": 1
     },
     "paywall": {
       "cta": "WinstaPlayer is free through November 30. During the free period, you can see the Hot Pick, All Picks, Aggressive, Conservative, and the complete live record. The paywall begins December 1.",
@@ -27,23 +27,23 @@
     "prior_slate": {
       "bets": [
         {
-          "actual_stat": 34,
-          "dbb2_projection": 5.5,
+          "actual_stat": 43,
+          "dbb2_projection": 18.8,
           "direction": "UNDER",
           "outcome": "LOSS",
-          "payout_dollars": -23.23,
-          "player_name": "Kyrie Irving",
+          "payout_dollars": -23.12,
+          "player_name": "Luka Doncic",
           "prop_type": "points",
           "source": "sportsbook",
-          "sportsbook_line": 22.5,
+          "sportsbook_line": 35.5,
           "units": 0.5
         },
         {
-          "actual_stat": 0,
+          "actual_stat": null,
           "dbb2_projection": 0.4,
           "direction": "UNDER",
-          "outcome": "WIN",
-          "payout_dollars": 0.36,
+          "outcome": "NO_ACTION",
+          "payout_dollars": 0.0,
           "player_name": "Kyrie Irving",
           "prop_type": "threes",
           "source": "sportsbook",
@@ -71,14 +71,14 @@
       },
       "all": {
         "metrics": {
-          "bets": 2,
+          "bets": 1,
           "losses": 1,
-          "pnl": -22.87,
+          "pnl": -23.12,
           "pushes": 0,
-          "roi_pct": -22.87,
-          "wagered": 100.0,
-          "win_rate_pct": 50.0,
-          "wins": 1
+          "roi_pct": -46.24,
+          "wagered": 50.0,
+          "win_rate_pct": 0.0,
+          "wins": 0
         },
         "status": "available"
       },
@@ -96,39 +96,39 @@
         "status": "not_available"
       }
     },
-    "publication_date": "2026-11-16",
-    "result_source": "data/results/2026-11-14.json",
-    "source_slate_date": "2026-11-14",
+    "publication_date": "2026-11-17",
+    "result_source": "data/results/2026-11-15.json",
+    "source_slate_date": "2026-11-15",
     "summary": {
-      "bets": 2,
+      "bets": 1,
       "losses": 1,
-      "pnl": -22.87,
+      "pnl": -23.12,
       "pushes": 0,
-      "roi_pct": -22.87,
-      "wagered": 100.0,
-      "win_rate_pct": 50.0,
-      "wins": 1
+      "roi_pct": -46.24,
+      "wagered": 50.0,
+      "win_rate_pct": 0.0,
+      "wins": 0
     }
   },
   "picks": [
     {
-      "actual_stat": 34,
-      "dbb2_projection": 5.5,
+      "actual_stat": 43,
+      "dbb2_projection": 18.8,
       "direction": "UNDER",
       "outcome": "LOSS",
-      "payout_dollars": -23.23,
-      "player_name": "Kyrie Irving",
+      "payout_dollars": -23.12,
+      "player_name": "Luka Doncic",
       "prop_type": "points",
       "source": "sportsbook",
-      "sportsbook_line": 22.5,
+      "sportsbook_line": 35.5,
       "units": 0.5
     },
     {
-      "actual_stat": 0,
+      "actual_stat": null,
       "dbb2_projection": 0.4,
       "direction": "UNDER",
-      "outcome": "WIN",
-      "payout_dollars": 0.36,
+      "outcome": "NO_ACTION",
+      "payout_dollars": 0.0,
       "player_name": "Kyrie Irving",
       "prop_type": "threes",
       "source": "sportsbook",
