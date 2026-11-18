@@ -1,22 +1,22 @@
 {
   "facts": {
-    "bet_slip_source": "data/bet_slips/2026-11-15.json",
+    "bet_slip_source": "data/bet_slips/2026-11-16.json",
     "contract": "winstaplayer-validated-facts-v1",
     "facts_status": "validated",
-    "generated_at_utc": "2026-11-17T09:01:03Z",
+    "generated_at_utc": "2026-11-18T09:01:04Z",
     "ledger_summary": {
-      "losses": 17,
+      "losses": 25,
       "pushes": 0,
-      "roi_pct": -41.7,
-      "total_bets": 40,
-      "total_pnl": -399.51,
-      "total_wagered": 958.41,
-      "win_rate_pct": 55.3,
-      "wins": 21
+      "roi_pct": -49.0,
+      "total_bets": 50,
+      "total_pnl": -579.74,
+      "total_wagered": 1184.1,
+      "win_rate_pct": 47.9,
+      "wins": 23
     },
     "outcomes": {
       "LOSS": 1,
-      "NO_ACTION": 1
+      "WIN": 1
     },
     "paywall": {
       "cta": "WinstaPlayer is free through November 30. During the free period, you can see the Hot Pick, All Picks, Aggressive, Conservative, and the complete live record. The paywall begins December 1.",
@@ -27,27 +27,27 @@
     "prior_slate": {
       "bets": [
         {
-          "actual_stat": 43,
-          "dbb2_projection": 18.8,
+          "actual_stat": 12,
+          "dbb2_projection": 4.4,
           "direction": "UNDER",
           "outcome": "LOSS",
-          "payout_dollars": -23.12,
-          "player_name": "Luka Doncic",
-          "prop_type": "points",
+          "payout_dollars": -22.21,
+          "player_name": "Trae Young",
+          "prop_type": "assists",
           "source": "sportsbook",
-          "sportsbook_line": 35.5,
+          "sportsbook_line": 9.5,
           "units": 0.5
         },
         {
-          "actual_stat": null,
-          "dbb2_projection": 0.4,
+          "actual_stat": 7,
+          "dbb2_projection": 4.4,
           "direction": "UNDER",
-          "outcome": "NO_ACTION",
-          "payout_dollars": 0.0,
-          "player_name": "Kyrie Irving",
-          "prop_type": "threes",
+          "outcome": "WIN",
+          "payout_dollars": 0.46,
+          "player_name": "Nikola Jokic",
+          "prop_type": "assists",
           "source": "sportsbook",
-          "sportsbook_line": 3.5,
+          "sportsbook_line": 9.5,
           "units": 0.5
         }
       ],
@@ -71,14 +71,14 @@
       },
       "all": {
         "metrics": {
-          "bets": 1,
+          "bets": 2,
           "losses": 1,
-          "pnl": -23.12,
+          "pnl": -21.75,
           "pushes": 0,
-          "roi_pct": -46.24,
-          "wagered": 50.0,
-          "win_rate_pct": 0.0,
-          "wins": 0
+          "roi_pct": -21.75,
+          "wagered": 100.0,
+          "win_rate_pct": 50.0,
+          "wins": 1
         },
         "status": "available"
       },
@@ -96,43 +96,43 @@
         "status": "not_available"
       }
     },
-    "publication_date": "2026-11-17",
-    "result_source": "data/results/2026-11-15.json",
-    "source_slate_date": "2026-11-15",
+    "publication_date": "2026-11-18",
+    "result_source": "data/results/2026-11-16.json",
+    "source_slate_date": "2026-11-16",
     "summary": {
-      "bets": 1,
+      "bets": 2,
       "losses": 1,
-      "pnl": -23.12,
+      "pnl": -21.75,
       "pushes": 0,
-      "roi_pct": -46.24,
-      "wagered": 50.0,
-      "win_rate_pct": 0.0,
-      "wins": 0
+      "roi_pct": -21.75,
+      "wagered": 100.0,
+      "win_rate_pct": 50.0,
+      "wins": 1
     }
   },
   "picks": [
     {
-      "actual_stat": 43,
-      "dbb2_projection": 18.8,
+      "actual_stat": 12,
+      "dbb2_projection": 4.4,
       "direction": "UNDER",
       "outcome": "LOSS",
-      "payout_dollars": -23.12,
-      "player_name": "Luka Doncic",
-      "prop_type": "points",
+      "payout_dollars": -22.21,
+      "player_name": "Trae Young",
+      "prop_type": "assists",
       "source": "sportsbook",
-      "sportsbook_line": 35.5,
+      "sportsbook_line": 9.5,
       "units": 0.5
     },
     {
-      "actual_stat": null,
-      "dbb2_projection": 0.4,
+      "actual_stat": 7,
+      "dbb2_projection": 4.4,
       "direction": "UNDER",
-      "outcome": "NO_ACTION",
-      "payout_dollars": 0.0,
-      "player_name": "Kyrie Irving",
-      "prop_type": "threes",
+      "outcome": "WIN",
+      "payout_dollars": 0.46,
+      "player_name": "Nikola Jokic",
+      "prop_type": "assists",
       "source": "sportsbook",
-      "sportsbook_line": 3.5,
+      "sportsbook_line": 9.5,
       "units": 0.5
     }
   ],
