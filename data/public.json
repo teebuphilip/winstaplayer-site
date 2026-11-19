@@ -1,18 +1,18 @@
 {
   "facts": {
-    "bet_slip_source": "data/bet_slips/2026-11-16.json",
+    "bet_slip_source": "data/bet_slips/2026-11-17.json",
     "contract": "winstaplayer-validated-facts-v1",
     "facts_status": "validated",
-    "generated_at_utc": "2026-11-18T09:01:04Z",
+    "generated_at_utc": "2026-11-19T09:01:06Z",
     "ledger_summary": {
-      "losses": 25,
+      "losses": 27,
       "pushes": 0,
       "roi_pct": -49.0,
-      "total_bets": 50,
-      "total_pnl": -579.74,
-      "total_wagered": 1184.1,
-      "win_rate_pct": 47.9,
-      "wins": 23
+      "total_bets": 54,
+      "total_pnl": -622.97,
+      "total_wagered": 1272.29,
+      "win_rate_pct": 48.1,
+      "wins": 25
     },
     "outcomes": {
       "LOSS": 1,
@@ -27,27 +27,27 @@
     "prior_slate": {
       "bets": [
         {
-          "actual_stat": 12,
-          "dbb2_projection": 4.4,
+          "actual_stat": 36,
+          "dbb2_projection": 17.8,
           "direction": "UNDER",
-          "outcome": "LOSS",
-          "payout_dollars": -22.21,
-          "player_name": "Trae Young",
-          "prop_type": "assists",
+          "outcome": "WIN",
+          "payout_dollars": 0.43,
+          "player_name": "Luka Doncic",
+          "prop_type": "points",
           "source": "sportsbook",
-          "sportsbook_line": 9.5,
+          "sportsbook_line": 36.5,
           "units": 0.5
         },
         {
-          "actual_stat": 7,
-          "dbb2_projection": 4.4,
+          "actual_stat": 25,
+          "dbb2_projection": 4.8,
           "direction": "UNDER",
-          "outcome": "WIN",
-          "payout_dollars": 0.46,
-          "player_name": "Nikola Jokic",
-          "prop_type": "assists",
+          "outcome": "LOSS",
+          "payout_dollars": -21.99,
+          "player_name": "Damian Lillard",
+          "prop_type": "points",
           "source": "sportsbook",
-          "sportsbook_line": 9.5,
+          "sportsbook_line": 21.5,
           "units": 0.5
         }
       ],
@@ -73,9 +73,9 @@
         "metrics": {
           "bets": 2,
           "losses": 1,
-          "pnl": -21.75,
+          "pnl": -21.56,
           "pushes": 0,
-          "roi_pct": -21.75,
+          "roi_pct": -21.56,
           "wagered": 100.0,
           "win_rate_pct": 50.0,
           "wins": 1
@@ -96,15 +96,15 @@
         "status": "not_available"
       }
     },
-    "publication_date": "2026-11-18",
-    "result_source": "data/results/2026-11-16.json",
-    "source_slate_date": "2026-11-16",
+    "publication_date": "2026-11-19",
+    "result_source": "data/results/2026-11-17.json",
+    "source_slate_date": "2026-11-17",
     "summary": {
       "bets": 2,
       "losses": 1,
-      "pnl": -21.75,
+      "pnl": -21.56,
       "pushes": 0,
-      "roi_pct": -21.75,
+      "roi_pct": -21.56,
       "wagered": 100.0,
       "win_rate_pct": 50.0,
       "wins": 1
@@ -112,27 +112,27 @@
   },
   "picks": [
     {
-      "actual_stat": 12,
-      "dbb2_projection": 4.4,
+      "actual_stat": 36,
+      "dbb2_projection": 17.8,
       "direction": "UNDER",
-      "outcome": "LOSS",
-      "payout_dollars": -22.21,
-      "player_name": "Trae Young",
-      "prop_type": "assists",
+      "outcome": "WIN",
+      "payout_dollars": 0.43,
+      "player_name": "Luka Doncic",
+      "prop_type": "points",
       "source": "sportsbook",
-      "sportsbook_line": 9.5,
+      "sportsbook_line": 36.5,
       "units": 0.5
     },
     {
-      "actual_stat": 7,
-      "dbb2_projection": 4.4,
+      "actual_stat": 25,
+      "dbb2_projection": 4.8,
       "direction": "UNDER",
-      "outcome": "WIN",
-      "payout_dollars": 0.46,
-      "player_name": "Nikola Jokic",
-      "prop_type": "assists",
+      "outcome": "LOSS",
+      "payout_dollars": -21.99,
+      "player_name": "Damian Lillard",
+      "prop_type": "points",
       "source": "sportsbook",
-      "sportsbook_line": 9.5,
+      "sportsbook_line": 21.5,
       "units": 0.5
     }
   ],
