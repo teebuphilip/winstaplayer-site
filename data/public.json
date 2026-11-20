@@ -1,22 +1,21 @@
 {
   "facts": {
-    "bet_slip_source": "data/bet_slips/2026-11-17.json",
+    "bet_slip_source": "data/bet_slips/2026-11-18.json",
     "contract": "winstaplayer-validated-facts-v1",
     "facts_status": "validated",
-    "generated_at_utc": "2026-11-19T09:01:06Z",
+    "generated_at_utc": "2026-11-20T09:01:06Z",
     "ledger_summary": {
       "losses": 27,
       "pushes": 0,
-      "roi_pct": -49.0,
-      "total_bets": 54,
-      "total_pnl": -622.97,
-      "total_wagered": 1272.29,
-      "win_rate_pct": 48.1,
-      "wins": 25
+      "roi_pct": -45.7,
+      "total_bets": 58,
+      "total_pnl": -621.27,
+      "total_wagered": 1359.84,
+      "win_rate_pct": 51.8,
+      "wins": 29
     },
     "outcomes": {
-      "LOSS": 1,
-      "WIN": 1
+      "WIN": 2
     },
     "paywall": {
       "cta": "WinstaPlayer is free through November 30. During the free period, you can see the Hot Pick, All Picks, Aggressive, Conservative, and the complete live record. The paywall begins December 1.",
@@ -27,27 +26,27 @@
     "prior_slate": {
       "bets": [
         {
-          "actual_stat": 36,
-          "dbb2_projection": 17.8,
+          "actual_stat": 0,
+          "dbb2_projection": 0.0,
           "direction": "UNDER",
           "outcome": "WIN",
           "payout_dollars": 0.43,
           "player_name": "Luka Doncic",
-          "prop_type": "points",
+          "prop_type": "threes",
           "source": "sportsbook",
-          "sportsbook_line": 36.5,
+          "sportsbook_line": 4.5,
           "units": 0.5
         },
         {
-          "actual_stat": 25,
-          "dbb2_projection": 4.8,
+          "actual_stat": 0,
+          "dbb2_projection": 0.0,
           "direction": "UNDER",
-          "outcome": "LOSS",
-          "payout_dollars": -21.99,
-          "player_name": "Damian Lillard",
-          "prop_type": "points",
+          "outcome": "WIN",
+          "payout_dollars": 0.42,
+          "player_name": "Klay Thompson",
+          "prop_type": "threes",
           "source": "sportsbook",
-          "sportsbook_line": 21.5,
+          "sportsbook_line": 3.5,
           "units": 0.5
         }
       ],
@@ -72,13 +71,13 @@
       "all": {
         "metrics": {
           "bets": 2,
-          "losses": 1,
-          "pnl": -21.56,
+          "losses": 0,
+          "pnl": 0.85,
           "pushes": 0,
-          "roi_pct": -21.56,
+          "roi_pct": 0.85,
           "wagered": 100.0,
-          "win_rate_pct": 50.0,
-          "wins": 1
+          "win_rate_pct": 100.0,
+          "wins": 2
         },
         "status": "available"
       },
@@ -96,43 +95,43 @@
         "status": "not_available"
       }
     },
-    "publication_date": "2026-11-19",
-    "result_source": "data/results/2026-11-17.json",
-    "source_slate_date": "2026-11-17",
+    "publication_date": "2026-11-20",
+    "result_source": "data/results/2026-11-18.json",
+    "source_slate_date": "2026-11-18",
     "summary": {
       "bets": 2,
-      "losses": 1,
-      "pnl": -21.56,
+      "losses": 0,
+      "pnl": 0.85,
       "pushes": 0,
-      "roi_pct": -21.56,
+      "roi_pct": 0.85,
       "wagered": 100.0,
-      "win_rate_pct": 50.0,
-      "wins": 1
+      "win_rate_pct": 100.0,
+      "wins": 2
     }
   },
   "picks": [
     {
-      "actual_stat": 36,
-      "dbb2_projection": 17.8,
+      "actual_stat": 0,
+      "dbb2_projection": 0.0,
       "direction": "UNDER",
       "outcome": "WIN",
       "payout_dollars": 0.43,
       "player_name": "Luka Doncic",
-      "prop_type": "points",
+      "prop_type": "threes",
       "source": "sportsbook",
-      "sportsbook_line": 36.5,
+      "sportsbook_line": 4.5,
       "units": 0.5
     },
     {
-      "actual_stat": 25,
-      "dbb2_projection": 4.8,
+      "actual_stat": 0,
+      "dbb2_projection": 0.0,
       "direction": "UNDER",
-      "outcome": "LOSS",
-      "payout_dollars": -21.99,
-      "player_name": "Damian Lillard",
-      "prop_type": "points",
+      "outcome": "WIN",
+      "payout_dollars": 0.42,
+      "player_name": "Klay Thompson",
+      "prop_type": "threes",
       "source": "sportsbook",
-      "sportsbook_line": 21.5,
+      "sportsbook_line": 3.5,
       "units": 0.5
     }
   ],
