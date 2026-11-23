@@ -1,18 +1,18 @@
 {
   "facts": {
-    "bet_slip_source": "data/bet_slips/2026-11-20.json",
+    "bet_slip_source": "data/bet_slips/2026-11-21.json",
     "contract": "winstaplayer-validated-facts-v1",
     "facts_status": "validated",
-    "generated_at_utc": "2026-11-22T09:01:03Z",
+    "generated_at_utc": "2026-11-23T09:01:09Z",
     "ledger_summary": {
       "losses": 27,
       "pushes": 0,
-      "roi_pct": -40.3,
-      "total_bets": 66,
-      "total_pnl": -618.05,
-      "total_wagered": 1535.04,
-      "win_rate_pct": 57.8,
-      "wins": 37
+      "roi_pct": -38.0,
+      "total_bets": 70,
+      "total_pnl": -616.29,
+      "total_wagered": 1622.69,
+      "win_rate_pct": 60.3,
+      "wins": 41
     },
     "outcomes": {
       "WIN": 2
@@ -30,11 +30,11 @@
           "dbb2_projection": 0.0,
           "direction": "UNDER",
           "outcome": "WIN",
-          "payout_dollars": 0.39,
-          "player_name": "Luka Doncic",
+          "payout_dollars": 0.51,
+          "player_name": "Damian Lillard",
           "prop_type": "threes",
           "source": "sportsbook",
-          "sportsbook_line": 4.5,
+          "sportsbook_line": 3.5,
           "units": 0.5
         },
         {
@@ -42,8 +42,8 @@
           "dbb2_projection": 0.0,
           "direction": "UNDER",
           "outcome": "WIN",
-          "payout_dollars": 0.41,
-          "player_name": "Nickeil Alexander-Walker",
+          "payout_dollars": 0.37,
+          "player_name": "Kyrie Irving",
           "prop_type": "threes",
           "source": "sportsbook",
           "sportsbook_line": 3.5,
@@ -100,15 +100,15 @@
         "status": "awaiting_approval"
       }
     },
-    "publication_date": "2026-11-22",
-    "result_source": "data/results/2026-11-20.json",
-    "source_slate_date": "2026-11-20",
+    "publication_date": "2026-11-23",
+    "result_source": "data/results/2026-11-21.json",
+    "source_slate_date": "2026-11-21",
     "summary": {
       "bets": 2,
       "losses": 0,
-      "pnl": 0.8,
+      "pnl": 0.88,
       "pushes": 0,
-      "roi_pct": 0.8,
+      "roi_pct": 0.88,
       "wagered": 100.0,
       "win_rate_pct": 100.0,
       "wins": 2
@@ -120,11 +120,11 @@
       "dbb2_projection": 0.0,
       "direction": "UNDER",
       "outcome": "WIN",
-      "payout_dollars": 0.39,
-      "player_name": "Luka Doncic",
+      "payout_dollars": 0.51,
+      "player_name": "Damian Lillard",
       "prop_type": "threes",
       "source": "sportsbook",
-      "sportsbook_line": 4.5,
+      "sportsbook_line": 3.5,
       "units": 0.5
     },
     {
@@ -132,8 +132,8 @@
       "dbb2_projection": 0.0,
       "direction": "UNDER",
       "outcome": "WIN",
-      "payout_dollars": 0.41,
-      "player_name": "Nickeil Alexander-Walker",
+      "payout_dollars": 0.37,
+      "player_name": "Kyrie Irving",
       "prop_type": "threes",
       "source": "sportsbook",
       "sportsbook_line": 3.5,
