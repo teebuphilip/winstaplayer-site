@@ -3,7 +3,7 @@
     "bet_slip_source": null,
     "contract": "winstaplayer-validated-facts-v1",
     "facts_status": "no_completed_slate",
-    "generated_at_utc": "2026-11-26T12:51:01Z",
+    "generated_at_utc": "2026-11-26T13:12:43Z",
     "ledger_summary": {
       "losses": 27,
       "pushes": 0,
@@ -16,9 +16,9 @@
     },
     "outcomes": {},
     "paywall": {
-      "cta": "WinstaPlayer is free through December 15. During the free period, you can see the Hot Pick, All Picks, Aggressive, Conservative, and the complete live record. The paywall begins December 16.",
+      "cta": "WinstaPlayer is free through December 31, including Christmas Day. During the free period, you can see the Hot Pick, All Picks, Aggressive, Conservative, and the complete live record. The paywall begins January 1, 2027.",
       "is_free": true,
-      "paywall_date": "2026-12-16",
+      "paywall_date": "2027-01-01",
       "state": "free_preview"
     },
     "prior_slate": {
@@ -29,7 +29,7 @@
     },
     "profile_release": {
       "approved_at": "2026-11-26",
-      "public_until": "2026-12-15",
+      "public_until": "2026-12-31",
       "replay_dir": "/home/tebu/Documents/work/winstaplayer-runtime/data/backtest/2026-27-v3-1125-oddsfix",
       "status": "approved",
       "version": "v3"
