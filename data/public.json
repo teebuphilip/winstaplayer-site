@@ -1,18 +1,18 @@
 {
   "facts": {
-    "bet_slip_source": "data/bet_slips/2026-11-23.json",
+    "bet_slip_source": "data/bet_slips/2026-11-24.json",
     "contract": "winstaplayer-validated-facts-v1",
     "facts_status": "validated",
-    "generated_at_utc": "2026-11-25T09:01:07Z",
+    "generated_at_utc": "2026-11-26T09:01:07Z",
     "ledger_summary": {
-      "losses": 29,
+      "losses": 31,
       "pushes": 0,
-      "roi_pct": -36.6,
-      "total_bets": 78,
-      "total_pnl": -657.59,
-      "total_wagered": 1797.87,
-      "win_rate_pct": 61.8,
-      "wins": 47
+      "roi_pct": -37.2,
+      "total_bets": 82,
+      "total_pnl": -700.17,
+      "total_wagered": 1884.5,
+      "win_rate_pct": 61.3,
+      "wins": 49
     },
     "outcomes": {
       "LOSS": 1,
@@ -27,24 +27,24 @@
     "prior_slate": {
       "bets": [
         {
-          "actual_stat": 3,
-          "dbb2_projection": 0.0,
-          "direction": "UNDER",
-          "outcome": "WIN",
-          "payout_dollars": 0.41,
-          "player_name": "Luka Doncic",
-          "prop_type": "threes",
-          "source": "sportsbook",
-          "sportsbook_line": 4.5,
-          "units": 0.5
-        },
-        {
           "actual_stat": 4,
           "dbb2_projection": 0.0,
           "direction": "UNDER",
           "outcome": "LOSS",
-          "payout_dollars": -21.82,
-          "player_name": "Brandon Miller",
+          "payout_dollars": -21.61,
+          "player_name": "Desmond Bane",
+          "prop_type": "threes",
+          "source": "sportsbook",
+          "sportsbook_line": 3.5,
+          "units": 0.5
+        },
+        {
+          "actual_stat": 1,
+          "dbb2_projection": 0.0,
+          "direction": "UNDER",
+          "outcome": "WIN",
+          "payout_dollars": 0.37,
+          "player_name": "Kyrie Irving",
           "prop_type": "threes",
           "source": "sportsbook",
           "sportsbook_line": 3.5,
@@ -101,15 +101,15 @@
         "status": "awaiting_approval"
       }
     },
-    "publication_date": "2026-11-25",
-    "result_source": "data/results/2026-11-23.json",
-    "source_slate_date": "2026-11-23",
+    "publication_date": "2026-11-26",
+    "result_source": "data/results/2026-11-24.json",
+    "source_slate_date": "2026-11-24",
     "summary": {
       "bets": 2,
       "losses": 1,
-      "pnl": -21.41,
+      "pnl": -21.24,
       "pushes": 0,
-      "roi_pct": -21.41,
+      "roi_pct": -21.24,
       "wagered": 100.0,
       "win_rate_pct": 50.0,
       "wins": 1
@@ -117,24 +117,24 @@
   },
   "picks": [
     {
-      "actual_stat": 3,
-      "dbb2_projection": 0.0,
-      "direction": "UNDER",
-      "outcome": "WIN",
-      "payout_dollars": 0.41,
-      "player_name": "Luka Doncic",
-      "prop_type": "threes",
-      "source": "sportsbook",
-      "sportsbook_line": 4.5,
-      "units": 0.5
-    },
-    {
       "actual_stat": 4,
       "dbb2_projection": 0.0,
       "direction": "UNDER",
       "outcome": "LOSS",
-      "payout_dollars": -21.82,
-      "player_name": "Brandon Miller",
+      "payout_dollars": -21.61,
+      "player_name": "Desmond Bane",
+      "prop_type": "threes",
+      "source": "sportsbook",
+      "sportsbook_line": 3.5,
+      "units": 0.5
+    },
+    {
+      "actual_stat": 1,
+      "dbb2_projection": 0.0,
+      "direction": "UNDER",
+      "outcome": "WIN",
+      "payout_dollars": 0.37,
+      "player_name": "Kyrie Irving",
       "prop_type": "threes",
       "source": "sportsbook",
       "sportsbook_line": 3.5,
