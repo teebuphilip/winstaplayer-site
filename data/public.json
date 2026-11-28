@@ -1,9 +1,9 @@
 {
   "facts": {
-    "bet_slip_source": "data/bet_slips/2026-11-25.json",
+    "bet_slip_source": null,
     "contract": "winstaplayer-validated-facts-v1",
-    "facts_status": "validated",
-    "generated_at_utc": "2026-11-27T09:01:07Z",
+    "facts_status": "no_completed_slate",
+    "generated_at_utc": "2026-11-28T09:00:36Z",
     "ledger_summary": {
       "losses": 33,
       "pushes": 0,
@@ -14,10 +14,7 @@
       "win_rate_pct": 60.7,
       "wins": 51
     },
-    "outcomes": {
-      "LOSS": 1,
-      "WIN": 1
-    },
+    "outcomes": {},
     "paywall": {
       "cta": "WinstaPlayer is free through November 30. During the free period, you can see the Hot Pick, All Picks, Aggressive, Conservative, and the complete live record. The paywall begins December 1.",
       "is_free": true,
@@ -25,35 +22,10 @@
       "state": "free_preview"
     },
     "prior_slate": {
-      "bets": [
-        {
-          "actual_stat": 10,
-          "dbb2_projection": 8.3,
-          "direction": "UNDER",
-          "outcome": "WIN",
-          "payout_dollars": 0.44,
-          "player_name": "Karl-Anthony Towns",
-          "prop_type": "rebounds",
-          "source": "sportsbook",
-          "sportsbook_line": 13.5,
-          "units": 0.5
-        },
-        {
-          "actual_stat": 10,
-          "dbb2_projection": 5.4,
-          "direction": "UNDER",
-          "outcome": "LOSS",
-          "payout_dollars": -21.39,
-          "player_name": "Davion Mitchell",
-          "prop_type": "assists",
-          "source": "sportsbook",
-          "sportsbook_line": 8.5,
-          "units": 0.5
-        }
-      ],
-      "has_games_or_bets": true,
+      "bets": [],
+      "has_games_or_bets": false,
       "hot_pick": null,
-      "total_published_bets": 2
+      "total_published_bets": 0
     },
     "profile_release": {
       "approved_at": null,
@@ -101,45 +73,20 @@
         "status": "awaiting_approval"
       }
     },
-    "publication_date": "2026-11-27",
-    "result_source": "data/results/2026-11-25.json",
-    "source_slate_date": "2026-11-25",
+    "publication_date": "2026-11-28",
+    "result_source": null,
+    "source_slate_date": "2026-11-26",
     "summary": {
-      "bets": 2,
-      "losses": 1,
-      "pnl": -20.95,
+      "bets": 0,
+      "losses": 0,
+      "pnl": 0,
       "pushes": 0,
-      "roi_pct": -20.95,
-      "wagered": 100.0,
-      "win_rate_pct": 50.0,
-      "wins": 1
+      "roi_pct": null,
+      "wagered": 0,
+      "win_rate_pct": null,
+      "wins": 0
     }
   },
-  "picks": [
-    {
-      "actual_stat": 10,
-      "dbb2_projection": 8.3,
-      "direction": "UNDER",
-      "outcome": "WIN",
-      "payout_dollars": 0.44,
-      "player_name": "Karl-Anthony Towns",
-      "prop_type": "rebounds",
-      "source": "sportsbook",
-      "sportsbook_line": 13.5,
-      "units": 0.5
-    },
-    {
-      "actual_stat": 10,
-      "dbb2_projection": 5.4,
-      "direction": "UNDER",
-      "outcome": "LOSS",
-      "payout_dollars": -21.39,
-      "player_name": "Davion Mitchell",
-      "prop_type": "assists",
-      "source": "sportsbook",
-      "sportsbook_line": 8.5,
-      "units": 0.5
-    }
-  ],
+  "picks": [],
   "visibility": "production"
 }
